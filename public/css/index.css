@@ -16,7 +16,7 @@ main {
 
 .main__box {
     width: 1000px;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .article__text {
@@ -131,6 +131,9 @@ main {
     justify-content: space-between;
 }
 
+.main__shop .text-images__list__thumb {
+    height: 350px;
+}
 .main__etc {
     display: flex;
     justify-content: space-between;

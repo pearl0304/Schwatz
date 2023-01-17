@@ -1,0 +1,36 @@
+footer {
+    background-color: #414141;
+    color: white;
+    height: 250px;
+    position: relative;
+}
+
+.footer__wrap {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer__wrap .footer__box {
+    margin-top: 20px;
+}
+
+.footer__wrap .footer__box > div h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.footer__wrap .first {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__wrap .footer__box span {
+    cursor: pointer;
+}

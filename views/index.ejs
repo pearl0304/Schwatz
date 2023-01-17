@@ -1,23 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/css/styles.css" rel="stylesheet" />
-    <link
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link href="/css/index.css" rel="stylesheet" />
+  />
+  <link href="/css/styles.css" rel="stylesheet"/>
+  <link href="/css/index.css" rel="stylesheet"/>
+  <title>Schwartz :: Main</title>
+</head>
+<body>
+<%- include('./common/header.ejs') %>
+<main>
+  <div class="main__wrap">
+    <div class="main__box main__slider">
+      <div class="swiper">
+        <div class="swiper-wrapper mySwiper">
+          <div class="swiper-slide"><img src="/images/main_slider/main_slider_1.jpg"></div>
+          <div class="swiper-slide"><img src="/images/main_slider/main_slider_2.jpg"></div>
+          <div class="swiper-slide"><img src="/images/main_slider/main_slider_3.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="main__box main__news">
+      <h1>News that lasts.</h1>
+      <article>
+        <span>About</span>
+        <h3 class="article__text">
+          Schwartz Media publishes intelligent news and current affairs that breaks the 24-hour news cycle. We offer a
+          nuanced examination of Australia and the world, focused on fresh insight and literary expression. Our audience
+          reads to know, not just to agree. We invest in long-form journalism where the issues demand it, providing
+          writing of a quality that makes difficult topics clear. Schwartz Media publishes Australia’s most respected
+          writers across The Saturday Paper, The Monthly magazine and the daily podcast 7am, alongside our sister
+          publications, Quarterly Essay and Australian Foreign Affairs.
+        </h3>
+      </article>
+      <a>
+        <span>View our Companies</span>
+      </a>
+    </div>
+    <div class="main__box main__grid">
+      <div class="grid__text">
+        <h2>Journalism</h2>
+        <h3 class="article__text">
+          Our journalists create in-depth, independent, original public interest reporting, focusing on storytelling and
+          insight.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+        </div>
+      </div>
+      <div class="grid__image">
+        <img src="images/photo_1.jpg">
+      </div>
+      <div class="grid__image">
+        <img src="images/photo_2.jpg">
+      </div>
+      <div class="grid__text">
+        <h2>The Monthly</h2>
+        <h3 class="article__text">
+          The Monthly publishes long-form journalism from the nation's leading writers and thinkers, covering Australian
+          politics, culture and ideas.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+          <span class="more_btn"><a>Advertise</a></span>
+        </div>
+      </div>
+      <div class="grid__text">
+        <h2>The Saturday Paper</h2>
+        <h3 class="article__text">
+          The Saturday Paper is a weekly newspaper, dedicated to telling the whole story. It publishes long-form
+          accounts of the week’s key stories.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+          <span class="more_btn"><a>Advertise</a></span>
+        </div>
+      </div>
+      <div class="grid__image">
+        <img src="images/photo_3.jpg">
+      </div>
+      <div class="grid__image">
+        <img src="images/photo_4.jpg">
+      </div>
+      <div class="grid__text">
+        <h2>7am</h2>
+        <h3 class="article__text">
+          7am is a daily news podcast that tells the big stories through in-depth interviews and sharp analysis.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+          <span class="more_btn"><a>Advertise</a></span>
+        </div>
+      </div>
+      <div class="text-images__list">
+        <h2>Quarterly Essay</h2>
+        <div class="text-images__list__thumb">
+          <img src="/images/photo_5.jpg">
+        </div>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+          <span class="more_btn"><a>Advertise</a></span>
+        </div>
+      </div>
+      <div class="text-images__list">
+        <h2>Quarterly Essay</h2>
+        <div class="text-images__list__thumb">
+          <img src="/images/photo_6.jpg">
+        </div>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+          <span class="more_btn"><a>Advertise</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="main__box main__advertise">
+      <div>
+        <h2>Advertise</h2>
+        <h3 class="article__text">
+          Get in touch with our advertising team.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+          <span class="more_btn"><a>Advertise</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="main__box main__shop">
+      <div class="text-images__list">
+        <h2>Shop</h2>
+        <div class="text-images__list__thumb">
+          <img src="/images/photo_5.jpg">
+        </div>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Shop Now</a></span>
+        </div>
+      </div>
+      <div class="text-images__list">
+        <h2>Give a Gift</h2>
+        <div class="text-images__list__thumb">
+          <img src="/images/photo_5.jpg">
+        </div>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Gift</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="main__box main__etc">
+      <div class="grid__text">
+        <h2>Careers</h2>
+        <h3 class="article__text">
+          Work at the country’s leading independent publisher.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+        </div>
+      </div>
+      <div class="grid__text">
+        <h2>News</h2>
+        <h3 class="article__text">
+          Keep in touch with what is happening at Schwartz Media.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+        </div>
+      </div>
+      <div class="grid__text">
+        <h2>Contact</h2>
+        <h3 class="article__text">
+          Get in touch with our editorial and advertising teams.
+        </h3>
+        <div class="more_btn_wrap">
+          <span class="more_btn"><a>Learn more</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/slider.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <title>Schwartz :: Main</title>
-  </head>
-  <body>
-    <%- include('./common/header.ejs')%>
-  </body>
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-  <script src="/js/header.js"></script>
-  <script src="/js/index.js"></script>
 </html>

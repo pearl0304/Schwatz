@@ -7,7 +7,6 @@
     width: 1000px;
     margin-left: 50%;
     transform: translate(-50%);
-    background-color: aliceblue;
 }
 
 .login__wrap nav {
@@ -25,6 +24,11 @@
 
 .login__wrap nav ul li {
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.login__wrap nav ul li:hover {
+    text-decoration: underline;
 }
 
 .login__wrap header {
@@ -48,7 +52,6 @@
 
 .login__wrap main {
     height: 600px;
-    background-color: lightblue;
     background-image: url("/images/user/login_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,11 +179,11 @@
 }
 
 .login__wrap article {
-    background-color: cadetblue;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 450px;
+    margin-bottom: 20px;
 }
 
 .login__wrap article h1 {
@@ -192,15 +195,65 @@
 .login__wrap article .list {
     display: flex;
     justify-content: space-between;
-    height: 300px;
     margin: 0px 10px
 }
 
-.login__wrap article .list .list__box {
+.login__wrap .list .list__box {
+    height: 300px;
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 25%;
-    border: 1px solid #eee;
+    align-items: center;
     margin: 0px 5px;
+    border: 1px solid lightgray;
+}
+
+.login__wrap .list .list__box > div {
+    padding: 5px;
+}
+
+.login__wrap .list .list__box .list__text {
+    height: 80px;
+}
+
+.login__wrap .list .list__box .list__text p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.login__wrap .list .list__box .list__text span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.login__wrap .list .list__box .down_load__app {
+    border: 1px solid #414141;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.login__wrap .login__footer {
+    width: 100%;
+    background-color: #efefef;
+    height: 200px;
+}
+
+.login__wrap .login__footer > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.login__wrap .login__footer > div h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login__wrap .login__footer > div p {
+    font-size: 14px;
+    font-weight: 400;
 }

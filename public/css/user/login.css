@@ -1,0 +1,206 @@
+.login__wrap {
+    width: 100%;
+    position: relative;
+}
+
+.lay_out_center {
+    width: 1000px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+}
+
+.login__wrap nav {
+    background-color: #fcfcfc;
+    height: 30px;
+    line-height: 30px;
+}
+
+.login__wrap nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+}
+
+.login__wrap nav ul li {
+    margin-right: 10px;
+}
+
+.login__wrap header {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__wrap .login__header__left span {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+}
+
+.login__wrap .login__header__right span {
+    font-size: 14px;
+    color: lightgray;
+    margin: 0 10px;
+}
+
+.login__wrap main {
+    height: 600px;
+    background-color: lightblue;
+    background-image: url("/images/user/login_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login__form__wrap {
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.login__form__wrap > div:first-child h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.login__form__wrap > div:first-child h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.login__form__wrap .login__form__box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login__form__wrap .send__user__info__form .small__text {
+    font-size: 10px;
+}
+
+.login__form__wrap .send__user__info__form {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login__form__wrap .send__user__info__form > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.login__form__wrap .send__user__info__form > div input {
+    height: 30px;
+    border: 1px solid #eee;
+    margin: 5px 0px;
+}
+
+.login__form__wrap .send__user__info__form > div input::placeholder {
+    font-size: 14px;
+    color: gray;
+}
+
+.login__form__wrap .send__user__info__form > div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+}
+
+.login__form__wrap .send__user__info__form > div:nth-child(3) button {
+    margin-right: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    width: 80px;
+}
+
+.login__form__wrap .login__sns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.login__form__wrap .login__sns > div {
+    border: 1px solid #eee;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.login__form__wrap .login__sns > div p {
+    margin: 0px 10px;
+    text-align: left;
+}
+.login__form__wrap .more{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.login__form__wrap .more span {
+    margin-bottom: 20px;
+}
+
+.login__form__wrap .more span ul {
+    display: flex;
+    justify-content: center;
+}
+
+.login__form__wrap .more span ul li {
+    font-size: 12px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.login__form__wrap .link {
+    text-decoration: underline;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.login__wrap article {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+}
+
+.login__wrap article h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.login__wrap article .list {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin: 0px 10px
+}
+
+.login__wrap article .list .list__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    border: 1px solid #eee;
+    margin: 0px 5px;
+}
